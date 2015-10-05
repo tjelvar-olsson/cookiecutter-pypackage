@@ -1,5 +1,4 @@
 from setuptools import setup
-import {{ cookiecutter.repo_name }}
 
 # Importing the "multiprocessing" module is required for the "nose.collector".
 # See also: http://bugs.python.org/issue15881#msg170215
@@ -22,9 +21,12 @@ class NoseTestCommand(TestCommand):
         import nose
         nose.run_exit(argv=['nosetests'])
 
+version = "{{ cookiecutter.version }}"
+readme = open('README.rst').read()
 
 setup(name="{{ cookiecutter.repo_name }}",
-      version={{ cookiecutter.repo_name }}.__version__,
+      version=version,
+      long_description=readme,
       packages=["{{ cookiecutter.repo_name}}"],
       cmdclass={"test": NoseTestCommand},
       tests_require=["nose", "coverage"],

@@ -11,7 +11,6 @@
 
 import sys
 import os
-import {{ cookiecutter.repo_name }}
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -52,7 +51,7 @@ copyright = u'2015, {{ cookiecutter.authors }}'
 # built documents.
 #
 # The short X.Y version.
-version = {{ cookiecutter.repo_name }}.__version__
+version = "{{ cookiecutter.version }}"
 # The full version, including alpha/beta/rc tags.
 release = version
 
