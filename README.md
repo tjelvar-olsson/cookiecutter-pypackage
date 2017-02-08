@@ -12,5 +12,5 @@ Cookiecutter template for a Python package. See https://github.com/audreyr/cooki
 
 The template for the Python package includes:
 - setup.py
-- test suite layout using nose and coverage
+- test suite layout using tox and coverage
 - sphinx docs layout using read the docs theme
