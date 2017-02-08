@@ -1,5 +1,8 @@
 {
   "repo_name": "mypackage",
-  "version": "0.0.1",
-  "authors": "Tjelvar Olsson"
+  "version": "0.1.0",
+  "author": "Your Name",
+  "description": "Package to do something useful",
+  "author_email": "namey@example.com",
+  "_extensions": ["jinja2_time.TimeExtension"]
 }
