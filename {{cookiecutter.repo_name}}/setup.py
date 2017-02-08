@@ -13,5 +13,6 @@ setup(name="{{ cookiecutter.repo_name }}",
       author="{{ cookiecutter.author }}",
       author_email="{{ cookiecutter.author_email }}",
       url=url,
+      install_requires=[],
       download_url="{}/tarball/{}".format(url, version),
       license="MIT")
