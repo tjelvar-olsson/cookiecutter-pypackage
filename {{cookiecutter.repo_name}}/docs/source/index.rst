@@ -8,3 +8,5 @@ Content
    :maxdepth: 2
 
    README
+   CHANGELOG
+   LICENSE
